@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <title>Formulaire 2</title>
+</head>
+<body>
+     <!--<form action="">
+        <input type="text">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="button">
+        <input type="date">
+    </form>
+    Get : transport des données saisis dans les éléments du formulaire vi l'URL
+    Post : transport des données via http
+    Lable: l'element labl va donner des indications sur les données attendues dans chaque champs
+    Pour des raisons de cohérences: on lie chaque label à son input-->
+
+    <form method="post" action="form.php">
+        <div class="champ positionText">
+            <label for="pseudo">Entrez un pseudonyme : </label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Mon pseudo">
+        </div>
+        <div class="champ positionText">
+            <label for="pass">Entrez un mot de passe :</label>
+            <input type="password" id="pass" name="pass" placeholder="********">
+        </div>
+        <div class="champ positionText">
+            <label for="mail">Entrez un mail :</label>
+            <input type="email" id="mail" name="mail" placeholder="mail@mail.fr">
+        </div>
+        <div class="champ positionText">
+            <textarea name="message" id="message" cols="48" rows="10" placeholder="Entrez votre texte..."></textarea>
+        </div>
+        <div class="champ positionText">
+            <label for="cg">Je ne suis pas un robot :</label>
+            <input type="checkbox" id="check" name="check">
+        </div>
+        <!--bouton d'envoi du formulaire-->
+        <div class="champ" id="button">
+            <input type="submit" value="Envoyer">
+        </div>
+    </form>
+</body>
+</html>
