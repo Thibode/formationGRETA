@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-family: fantasy;
+}
+img {
+  width: 200px;
+  height: inherit;
+}

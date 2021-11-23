@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/menuderoulant.css" />
+    <title>Menu Déroulant</title>
+  </head>
+  <body>
+    <!--Partie menu déroulant ou on retrouvera toute l'architecture du site-->
+    <nav>
+      <ul>
+        <li class="menu-deroulant">
+          <a href="#">Accueil</a>
+          <ul class="sous-menu">
+            <li><a href="#grillePresentation">Présentation</a></li>
+            <li><a href="#">Parcours</a></li>
+            <li><a href="#">Compétences</a></li>
+          </ul>
+        </li>
+        <li class="menu-deroulant">
+          <a href="#">Hobbies</a>
+          <ul class="sous-menu">
+            <li><a href="#">Musique</a></li>
+            <li><a href="#">Roller-Hockey</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contactez-moi</a></li>
+      </ul>
+    </nav>
+    <!--Partie présentation ou on retrouvera toute les informations essenteilles-->
+    <div id="grillePresentation">
+      <div class="bandeauSousmenu"></div>
+      <div class="infoPratique">
+        <ul>
+          <li><i class="fa fa-user"></i> Thibault DEQUIDT</li>
+          <li><i class="fa fa-compass"></i> Angers</li>
+          <li><i class="fa fa-envelope"></i> th.dequidt@gmail.com</li>
+          <li><i class="fa fa-phone"></i> 06.10.83.26.60</li>
+        </ul>
+      </div>
+      <div class="photoThi"></div>
+    </div>
+    <!--Séparation des parties-->
+    <div id="laLigne"></div>
+    <!--Partie Parcours ou on retrouvera toute les informations sur mon parcours pro-->
+    <h1>Mon parcours professionnel</h1>
+    <section class="parcoursPro">
+      <article>
+        <h4>Concentrix -Service client IKEA</h4>
+        <h5>Mai - Aôut 2021</h5>
+        <p>
+          Lors de ce contrat, j’étais chargé de répondre aux demandes des
+          clients pour les magasins et le site IKEA.
+        </p>
+      </article>
+      <article class="borderArticle">
+        <h4>AFONE Monetics -Service Technique</h4>
+        <h5>Aôut - Décembre 2020</h5>
+        <p>
+          Dans cette entreprise j’ai appris à dépanner différents types de
+          terminaux de paiements. Et à gérer l'accueil des clients.
+        </p>
+      </article>
+      <article class="borderArticle">
+        <h4>Concentrix -Service Technique Professionnel Orange</h4>
+        <h5>Aôut 2017 - Février 2019 & Aôut - Décembre 2020</h5>
+        <p>
+          Dans le cadre de ce contrat j’ai exercé les fonctions de technicien
+          support professionnel pour la société de télécommunication Orange.
+          J’ai appris toute les qualités à avoir pour le poste de
+          téléconseiller, empathie, écoute, discours et résultat.
+        </p>
+      </article>
+    </section>
+  </body>
+</html>
