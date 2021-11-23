@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(
+      217deg,
+      rgba(87, 82, 82, 0.8),
+      rgba(0, 17, 255, 0) 70.71%
+    ),
+    linear-gradient(
+      127deg,
+      rgba(43, 52, 172, 0.8),
+      rgba(230, 230, 230, 0) 70.71%
+    ),
+    linear-gradient(
+      336deg,
+      rgba(138, 138, 138, 0.8),
+      rgba(241, 241, 241, 0) 70.71%
+    );
+}
+table {
+  margin: 10% auto;
+  border-collapse: collapse;
+  caption-side: top;
+}
+caption {
+  font-size: 25px;
+  margin: 0px 200px 30px 200px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+/* .prenom {
+  background-color: #d7d9f2;
+}
+.adresse {
+  background-color: #ffe8d4;
+} */
+thead {
+  background: linear-gradient(gray, white);
+}
+thead:nth-child(even) {
+  background-color: white;
+}
+tr,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background: whitesmoke;
+}

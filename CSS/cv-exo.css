@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  background: linear-gradient(
+    217deg,
+    rgb(139, 139, 139),
+    rgba(0, 0, 0, 0) 70.71%
+  );
+}
+h2 {
+  text-align: center;
+}
+#grilleCv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/**************Entete*****************/
+header {
+  grid-area: 1 / 1 / 1 / 5;
+  background: url(../Medias/header.jpg);
+  background-size: cover;
+  background-color: #58aff6;
+  top: 0;
+  height: 10vw;
+  width: 100vw;
+}
+/*************Navigation**************/
+nav {
+  grid-area: 2 / 1 / 2 / 2;
+  border: 2px solid black;
+  padding: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 2px 2px 10px black;
+}
+nav a {
+  padding: 20px;
+  text-decoration: none;
+}
+#acc {
+  list-style-image: url(../Medias/accueil.png);
+}
+#pres {
+  list-style-image: url(../Medias/pres.png);
+}
+#xp {
+  list-style-image: url(../Medias/expe.png);
+}
+/***************Présentation***************/
+#qui {
+  grid-area: 2 / 2 / 2 / 5;
+}
+#namePic {
+  list-style-image: url(../Medias/nom.png);
+}
+#agePic {
+  list-style-image: url(../Medias/age.png);
+}
+#phonePic {
+  list-style-image: url(../Medias/phone.png);
+}
+#mailPic {
+  list-style-image: url(../Medias/mail.png);
+}
+/****************Experiences**************/
+#experiences {
+  grid-area: 3 / 1 / 4 / 5;
+  line-height: 4em;
+  text-align: center;
+}
+/***************Projets****************/
+.futursProjets {
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px black;
+}
+/***************Bas de page***************/
+footer {
+  text-align: center;
+}
+@media print {
+  header {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+}

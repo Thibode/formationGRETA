@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(#fff, #333);
+}
+table {
+  margin: 10% auto;
+  border-collapse: collapse;
+  caption-side: top;
+  width: 600px;
+  height: 300px;
+}
+thead {
+  background-color: rgb(121, 118, 122);
+  color: white;
+}
+tr,
+td {
+  border: 3px solid rgb(31, 31, 31);
+  padding: 30px;
+}
+tr:nth-child(even) {
+  background: rgb(216, 213, 216);
+}
+.scaleColor {
+  transition: transform 0.3s;
+}
+.scaleColor:hover {
+  /*Grossir le texte et les cellules du tableau au passage de la souris*/
+  background-color: rgb(99, 99, 99);
+  color: white;
+  transform: scale(1.1);
+}
+tr:nth-child(even).scaleColor:hover {
+  background-color: rgb(179, 176, 176);
+  color: white;
+  transform: scale(1.1);
+}

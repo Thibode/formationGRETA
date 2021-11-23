@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  /*reset des marges*/
+  margin: 0;
+}
+p {
+  font-size: 30px;
+}
+div {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 900px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.affichageBoite {
+  width: 50%;
+  height: 60px;
+  margin: 20px auto;
+  border: 2px solid black;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 15px;
+  background-image: url(../Medias/etudiant.jpg);
+  transition-property: all;
+  transition-duration: 2s;
+}
+/*Etat normal*/
+#tr1 {
+  background-color: orange;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+/*lors du survol*/
+#tr1:hover {
+  background-color: blue;
+}
+#tr2 {
+  background-color: orange;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+#tr3 {
+  background-color: orange;
+  transition-property: background-color, border;
+  transition-duration: 2s;
+}
+#tr4 {
+  background-color: orange;
+  transition-property: all;
+  transition-duration: 5s;
+}
+#tr2:active,
+#tr3:hover,
+#tr4:hover {
+  background-color: blue;
+  border: 5px solid red;
+  color: white;
+}
+#tr5 {
+  transition-timing-function: ease;
+  transition-delay: 2s;
+}
+#tr6 {
+  transition-timing-function: ease-in;
+  transition-delay: 0.5s;
+}
+#tr7 {
+  transition-timing-function: ease-out;
+  transition-delay: 1.5s;
+}
+#tr8 {
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.5s;
+}
+#tr9 {
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+#tr10 {
+  transition-timing-function: cubic-bezier(0.6, 0, 1, 1);
+}
+#tr5:hover,
+#tr6:hover,
+#tr7:hover,
+#tr8:hover,
+#tr9:hover,
+#tr10:hover {
+  width: 100%;
+  background-image: url(../Medias/montagne.jpg);
+  transform: rotate(1080deg);
+}

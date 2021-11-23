@@ -1,0 +1,19 @@
+* {
+  font-family: "Road Rage", cursive;
+  font-size: 20px;
+}
+form {
+  background: whitesmoke;
+  margin: 0px 600px 0px 600px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+.champ {
+  margin: 10px 0px 10px 0px;
+}
+.positionText {
+  margin-left: 25px;
+}
+#button {
+  margin-left: 200px;
+}

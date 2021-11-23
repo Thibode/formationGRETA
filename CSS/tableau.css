@@ -1,0 +1,47 @@
+* {
+  background: whitesmoke;
+  font-family: "Lucida Grande", sans-serif;
+}
+.headerNav {
+  height: 50px;
+  justify-content: center;
+  width: 80% !important;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+a {
+  background: linear-gradient(white, grey);
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-decoration: none;
+}
+a:hover {
+  background: rgb(149, 177, 141);
+}
+.alignElement {
+  background: grey;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  background: linear-gradient(white, grey);
+}
+table .enTete {
+  background: rgb(149, 177, 141);
+}
+img {
+  width: 400px;
+  height: 400px;
+}
+#positionList {
+  display: inline-block;
+}
+.alignElement,
+img {
+  display: inline-flex;
+}

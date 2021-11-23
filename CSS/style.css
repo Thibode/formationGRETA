@@ -1,0 +1,122 @@
+* {
+  font-size: 18px;
+  font-family: "Lucida Grande", sans-serif;
+  background: whitesmoke;
+}
+body {
+  color: rgb(37, 37, 59);
+}
+.headerNav {
+  height: 60px;
+  width: auto;
+  justify-content: center;
+}
+a {
+  background: linear-gradient(white, grey);
+  height: auto;
+  width: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-decoration: none;
+}
+a:hover {
+  background: rgb(149, 177, 141);
+}
+/* .alignElement #tableauDeco #positionList {
+  width: auto;
+  height: auto;
+} */
+#tableauDeco {
+  margin-right: 10px;
+  align-content: center;
+}
+img {
+  margin-top: 0;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+#positionList {
+  display: inline;
+}
+img #positionList {
+  align-items: flex-end;
+}
+#textCenter {
+  text-align: center;
+}
+#textCenter h1 {
+  color: hotpink;
+  text-transform: uppercase;
+}
+.colorList,
+li {
+  background: rgb(86, 95, 72);
+}
+/* h1 {
+  font-size: 25px;
+  color: blueviolet;
+}
+h2 {
+  font-size: 20px;
+  color: brown;
+}
+#colorBlue {
+  color: blue;
+  text-decoration: underline;
+}
+#souligneTitre {
+  text-decoration: underline; 
+}*/
+ul {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  padding: 25px;
+}
+ol {
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  padding: 25px;
+}
+table,
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+  background: linear-gradient(white, grey);
+}
+table {
+  background: black;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+}
+.enTete {
+  background: rgb(149, 177, 141);
+  color: red;
+}
+#changeRedColor {
+  color: blue;
+}
+#changeInBlue {
+  color: blue;
+}
+#positionList {
+  display: inline-block;
+  border: none;
+}
+.listUnique {
+  background: whitesmoke;
+}
+#margeLeft {
+  margin-left: 150px;
+}
